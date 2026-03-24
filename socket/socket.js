@@ -7,7 +7,7 @@ let rooms = {};
 
 const initSocket = (server) => {
   io = new Server(server, {
-      cors: { origin: "https://onisac-frontend.vercel.app/",
+      cors: { origin: "http://localhost:3000",
       credentials: true,
     },
   });
